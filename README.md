@@ -30,27 +30,27 @@ P3Distrib is distributed in source form.
 To create a patch, run the command:  
     ```
     P3Diff.exe <sourcePath> <destinationPath>
-    ```
+    ```  
 The patch is saved at the destinationPath with the extension .p3patch appended.
 
 For example:  
     ```
-     P3Diff.exe c:\P3\P3_SDK_V0.8\P3SampleApp C:\P3\P3EmptyGame  
-    ```
+    P3Diff.exe c:\P3\P3_SDK_V0.8\P3SampleApp C:\P3\P3EmptyGame  
+    ```  
 saves the patch in C:\P3\P3EmptyGame.p3patch
 
 # Applying a Patch
 
 To apply a patch and recreate the modified P3 project, run the command:  
     ```
-     P3Patch.exe <sourcePath> <p3patchPath>  
-    ```
+    P3Patch.exe <sourcePath> <p3patchPath>  
+    ```  
 The output project is under the directory p3patchPath without the extension.
 
 For example:  
     ```
-     P3Patch.exe c:\P3\P3_SDK_V0.8\P3SampleApp c:\P3\P3EmptyGame.p3patch  
-    ```
+    P3Patch.exe c:\P3\P3_SDK_V0.8\P3SampleApp c:\P3\P3EmptyGame.p3patch  
+    ```  
 saves a copy of the project under c:\P3\P3EmptyGame
 
 ## Support
