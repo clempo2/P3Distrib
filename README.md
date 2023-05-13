@@ -61,7 +61,12 @@ You can discuss P3Distrib and other P3 Development topics on the [P3 Community D
 
 ## License
 
-P3Distrib is MIT licensed.  
-Beware the output of P3Patch is still governed by the licensing terms of the original project.
-
 Copyright (c) 2023 Clement Pellerin  
+P3Distrib is licensed under the Apache 2.0 license.
+
+[Diff Match and Patch](https://github.com/google/diff-match-patch)  
+Copyright 2018 The diff-match-patch Authors.  
+Licensed under the Apache 2.0 license
+
+Beware the output of P3Patch is still governed by the licensing terms of the original source project.
+
