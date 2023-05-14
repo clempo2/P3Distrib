@@ -8,11 +8,10 @@ to distribute open source projects built on top of P3SampleApp.
 P3Distrib solves this problem by distributing only the changes between
 the modified project and P3SampleApp.
 
-P3Distrib goes further than a typical diff program in the following ways:
+Like any typical diff program, P3Distrib does not store identical content. It also goes further in the following ways:
 - The comparison is done at the character level
 - It does not store any surrounding context
 - It does not store a pre-image of deleted text
-- It does not store identical content
 
 Applying the patch to recreate the modified project requires access to an unmodified copy of the source project.
 
