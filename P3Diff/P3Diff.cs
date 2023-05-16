@@ -258,7 +258,7 @@ namespace P3Diff
             }
         }
 
-        private string[] skipped = { "\\.git", "\\Documentation", "\\Library", "\\obj", "\\Temp", ".sln", ".csproj" };
+        private string[] skipped = { "\\.git", "\\Documentation", "\\Library", "\\obj", "\\Temp", "\\.vs", ".sln", ".csproj" };
         private bool IsSkipped(string f)
         {
             for (int i=0; i<skipped.Length; i++)
